@@ -1,0 +1,88 @@
+{
+  "brand": {
+    "name": "Hawaa",
+    "tagline": "Dignity in Every Drop. Ending Period Poverty through Corporate Solidarity.",
+    "meaning": "Named after Hawaa (Eve in Arabic/Persian) and founder Amena Rahjo's niece.",
+    "region": "Netherlands (Amsterdam Pilot)",
+    "partners": [
+      "Stichting Armoedefonds",
+      "Tosama (Slovenia - 100% Organic GOTS Cotton)",
+      "Cohitech (Spain - 100% Organic GOTS Cotton)"
+    ]
+  },
+  "color_palette": {
+    "background": "#FAF8F5",
+    "background_secondary": "#F3F7FA",
+    "card_bg": "#FFFFFF",
+    "baby_pink": "#F472B6",
+    "baby_pink_light": "#FCE7F3",
+    "baby_blue": "#38BDF8",
+    "baby_blue_light": "#E0F2FE",
+    "text_primary": "#0F172A",
+    "text_secondary": "#475569",
+    "accent_gold": "#F59E0B",
+    "border_subtle": "rgba(226, 232, 240, 0.8)"
+  },
+  "typography": {
+    "heading_font": "Playfair Display, Serif",
+    "body_font": "Plus Jakarta Sans, sans-serif",
+    "accent_font": "Outfit, sans-serif",
+    "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-serif font-bold tracking-tight text-slate-900",
+    "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-serif font-semibold text-slate-900",
+    "h3_card": "text-xl sm:text-2xl font-sans font-semibold text-slate-900",
+    "overline": "text-xs font-semibold uppercase tracking-widest text-pink-500"
+  },
+  "spacing_and_layout": {
+    "container_max_width": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_padding": "py-16 sm:py-24",
+    "grid_bento": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6",
+    "card_padding": "p-6 sm:p-8"
+  },
+  "key_components": [
+    {
+      "name": "HeroHeader",
+      "description": "Kinetic text reveal with 3D floating marshmallow clouds parallax effect, interactive stats badges, and quick CTA buttons for corporate sponsorship & shop."
+    },
+    {
+      "name": "EditorialMarquee",
+      "description": "Slow drift ribbon featuring GOTS certifications, partner foundations, and corporate commitment logos."
+    },
+    {
+      "name": "ImpactStatsBento",
+      "description": "Bento grid displaying verified Netherlands period poverty statistics (25% unable to afford, 21% unsafe alternatives, Amsterdam 14% target down from 27%)."
+    },
+    {
+      "name": "BuyOneGiftOneShop",
+      "description": "E-commerce product cards for organic pads/tampons with interactive cart & Stripe simulated checkout logic, directly funding community distribution."
+    },
+    {
+      "name": "CorporatePackages",
+      "description": "Tiered sponsorship packages (Seed, Growth, Sanctuary) with employee headcount calculator and custom quote request."
+    },
+    {
+      "name": "CorporateEnquiryForm",
+      "description": "Full-featured form with backend validation and instant SQLite database recording via FastAPI API endpoints."
+    },
+    {
+      "name": "FourPhaseRoadmap",
+      "description": "Visual timeline for Pilot in Amsterdam (€15k-20k target) through nationwide corporate roll-out."
+    },
+    {
+      "name": "DonateModal",
+      "description": "Quick-action donation dialog for direct public support."
+    },
+    {
+      "name": "AdminEnquiriesDashboard",
+      "description": "Protected/toggleable dashboard to view, filter, update, and export corporate enquiries."
+    }
+  ],
+  "image_urls": {
+    "clouds_hero": "https://images.unsplash.com/photo-1597571063304-81f081944ee8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxibHVlJTIwc2t5JTIwY2xvdWRzJTIwc29mdCUyMG1hcnNobWFsbG93JTIwYWVzdGhldGljfGVufDB8fHxibHVlfDE3OTM2MzQ4NjV8MA&ixlib=rb-4.1.0&q=85",
+    "cotton_product": "https://images.unsplash.com/photo-1616431101491-554c0932ea40?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxjb3R0b24lMjBmbG93ZXIlMjBzb2Z0JTIwd2hpdGV8ZW58MHx8fHwxNzkzNjM0ODcyfDA&ixlib=rb-4.1.0&q=85",
+    "amsterdam_pilot": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NTYxNzV8MHwxfHNlYXJjaHwxfHxhbXN0ZXJkYW0lMjBjYW5hbCUyMG1vcm5pbmd8ZW58MHx8fHwxNzkzNjM0ODcyfDA&ixlib=rb-4.1.0&q=85",
+    "community_women": "https://images.pexels.com/photos/5253938/pexels-photo-5253938.jpeg"
+  },
+  "testing": {
+    "data_testid_convention": "All interactive elements must include descriptive kebab-case data-testid attributes (e.g., data-testid='enquiry-submit-btn', data-testid='shop-buy-now-btn')."
+  }
+}
