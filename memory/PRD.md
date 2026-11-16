@@ -20,7 +20,7 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 - Donate dialog (global nav + footer): €10/25/50/100 tiers or custom (min €5)
 - Payment success/cancel pages with status polling
 - Admin /admin: enquiries table with status updates, orders & donations table
-- Original SVG logo + favicon
+- Original SVG logo + favicon + icon family (favicon.ico, apple-touch-icon 180, 192/512 PNG, 128px signature PNG, 1024px full-bleed social square, /icon-preview.html)
 
 ## Placeholders
 - Product prices (€8.95/€7.95/€15.95), pack contents, package tiers & names, email hallo@hawaa.world
