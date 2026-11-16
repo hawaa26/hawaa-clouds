@@ -4,7 +4,7 @@ import { Reveal } from "./Reveal";
 
 const phases = [
   { n: "01", t: "Foundation", d: "Set up & sourcing. Sampling and supplier evaluation with Tosama and Cohitech.", now: true },
-  { n: "02", t: "Pilot", d: "First round of product distribution in Amsterdam with Stichting Armoedefonds." },
+  { n: "02", t: "Pilot", d: "First round of product distribution in Amsterdam." },
   { n: "03", t: "Expand", d: "Grow collaborations and corporate partnerships." },
   { n: "04", t: "National", d: "National scaling and institutional funding, towards free, sustainable care across the Netherlands." },
 ];

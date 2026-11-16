@@ -1,6 +1,6 @@
 const words = [
   "100% organic cotton", "GOTS-certified", "Chlorine-free", "Biodegradable",
-  "In partnership with Stichting Armoedefonds", "Made in Europe", "Buy one, gift one", "Dignity, not luxury",
+  "Community powered", "Made in Europe", "Buy one, gift one", "Dignity, not luxury",
 ];
 
 export const Marquee = () => (

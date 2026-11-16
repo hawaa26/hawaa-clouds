@@ -115,7 +115,7 @@ export default function Shop() {
           <MaskLines delay={0.1} lines={["Buy one.", <span key="g" className="font-display-italic text-[var(--pink-deep)]">Gift one.</span>]} />
         </h1>
         <p className="mt-8 max-w-xl text-base leading-relaxed text-[var(--ink-soft)] md:text-lg">
-          Every pack you buy is matched by a pack placed in a community center, asylum center or Armoedefonds distribution point, free for a woman or girl who needs it.
+          Every pack you buy is matched by a pack placed in a community center, asylum center or local distribution point, free for a woman or girl who needs it.
         </p>
       </section>
       <section className="relative mx-auto grid max-w-7xl gap-5 px-5 pb-32 sm:px-8 md:grid-cols-3" data-testid="shop-grid">

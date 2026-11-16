@@ -44,7 +44,7 @@ const DonateDialog = ({ open, onOpenChange }) => {
           <Heart className="mb-4 h-8 w-8 fill-white text-white" />
           <DialogTitle className="font-display text-4xl font-medium">Give softly.</DialogTitle>
           <DialogDescription className="mt-2 text-[15px] text-[var(--ink)]/80">
-            Every euro helps place organic cotton period care in community centers, asylum centers and Armoedefonds distribution points.
+            Every euro helps place organic cotton period care in community centers, asylum centers and local distribution points.
           </DialogDescription>
         </div>
         <div className="space-y-5 px-8 pb-8 pt-6">

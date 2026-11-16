@@ -5,7 +5,7 @@ import { Cloud } from "./Clouds";
 const places = [
   { icon: Users, t: "Community centers", d: "Trusted local spaces women already visit." },
   { icon: Home, t: "Asylum centers", d: "Where need is highest and choice is lowest." },
-  { icon: MapPin, t: "Armoedefonds points", d: "Established distribution networks across the country." },
+          { icon: MapPin, t: "Local distribution points", d: "Established networks women already trust." },
 ];
 
 export const Impact = () => (
@@ -27,11 +27,11 @@ export const Impact = () => (
       </div>
 
       <Reveal className="mt-6 grid overflow-hidden rounded-[2rem] bg-[var(--blue-soft)] md:grid-cols-2">
-        <div className="p-8 sm:p-12" data-testid="partner-armoedefonds">
-          <p className="eyebrow !text-[var(--blue-deep)]">Partner</p>
-          <p className="font-display mt-6 text-3xl leading-tight sm:text-4xl">In partnership with Stichting Armoedefonds.</p>
+        <div className="p-8 sm:p-12" data-testid="funding-block">
+          <p className="eyebrow !text-[var(--blue-deep)]">How it's funded</p>
+          <p className="font-display mt-6 text-3xl leading-tight sm:text-4xl">Independent sponsorships and grants.</p>
           <p className="mt-5 text-base leading-relaxed text-[var(--ink-soft)]">
-            Our pilot builds on Armoedefonds' established distribution network, so premium organic products reach the women and girls who need them through channels they already trust.
+            Hawaa raises independent corporate sponsorships and grants to absorb the cost of eco-friendly materials, so premium products reach the women and girls who need them through channels they already trust.
           </p>
         </div>
         <div className="relative min-h-[18rem]">

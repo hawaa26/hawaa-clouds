@@ -17,7 +17,7 @@ export const Footer = () => {
             <button onClick={openDonate} className="block hover:text-[var(--pink)]" data-testid="footer-donate-btn">Make a donation</button>
             <Link to="/admin" className="block text-white/70 hover:text-white" data-testid="footer-admin-link">Team login</Link>
           </div>
-          <p className="text-sm text-white/70">Statistics: Opinium &amp; Neighborhood Feminists, 2024. In partnership with Stichting Armoedefonds.</p>
+          <p className="text-sm text-white/70">Statistics: Opinium &amp; Neighborhood Feminists, 2024. Funded by independent corporate sponsorships and grants.</p>
         </div>
         <p className="font-display mt-20 select-none text-[24vw] font-light leading-[0.8] text-white/90" aria-hidden="true">hawaa</p>
         <div className="mt-8 flex flex-col justify-between gap-2 border-t border-white/10 pt-6 text-xs text-white/70 sm:flex-row">
