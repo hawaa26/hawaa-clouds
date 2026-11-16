@@ -23,7 +23,7 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 - Original SVG logo + favicon
 
 ## Placeholders
-- Product prices (€8.95/€7.95/€15.95), pack contents, package tiers & names, email [hello@hawaa.nl]
+- Product prices (€8.95/€7.95/€15.95), pack contents, package tiers & names, email hallo@hawaa.world
 
 ## Backlog
 - P1: email notification to admin on new enquiry; CSV export
