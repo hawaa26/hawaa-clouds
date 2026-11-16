@@ -25,6 +25,12 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 ## Placeholders
 - Product prices (€8.95/€7.95/€15.95), pack contents, package tiers & names, email hallo@hawaa.world
 
+## Export kit (added 2026-11-16)
+- /brand.html — brand kit page (logo variants, colors, fonts, icon downloads, usage rules)
+- /social-pack.html — 6 social graphics with captions + download buttons + /hawaa-social-pack.zip
+- /social-raw.html — editable HTML source of the graphics; /app/exports mirrors the final files
+- /icon-preview.html — icon family preview
+
 ## Backlog
 - P1: email notification to admin on new enquiry; CSV export
 - P1: real figures/impact counter once pilot runs
