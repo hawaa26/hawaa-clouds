@@ -35,7 +35,7 @@ export const Hero = () => {
         <div className="mt-10 flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
           <motion.p className="max-w-md text-base leading-relaxed text-[var(--ink)] md:text-lg"
             initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.1, duration: 0.9 }}>
-            Corporates sponsor 100% organic, GOTS-certified cotton tampons and pads for their teams, and 40% of every order goes to women and girls in vulnerable neighbourhoods.
+            Corporates sponsor organic, GOTS-certified cotton tampons and pads for their teams, and 40% of every order is donated as products to women and girls in vulnerable communities and neighbourhoods.
           </motion.p>
           <motion.div className="flex flex-wrap gap-3" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.3, duration: 0.9 }}>
             <button onClick={() => scrollToId("contact")} data-testid="hero-sponsor-btn"
@@ -53,7 +53,7 @@ export const Hero = () => {
       <div className="absolute right-6 top-28 z-10 hidden h-28 w-28 sm:block">
         <svg viewBox="0 0 100 100" className="spin-slow h-full w-full">
           <defs><path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0" /></defs>
-          <text className="fill-[var(--ink)] text-[9.5px] font-semibold uppercase tracking-[0.3em]"><textPath href="#circ">100% organic cotton · GOTS · </textPath></text>
+          <text className="fill-[var(--ink)] text-[9.5px] font-semibold uppercase tracking-[0.3em]"><textPath href="#circ">organic cotton · GOTS · </textPath></text>
         </svg>
       </div>
     </section>

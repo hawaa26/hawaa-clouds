@@ -1,5 +1,5 @@
 const words = [
-  "100% organic cotton", "GOTS-certified", "Chlorine-free", "Biodegradable",
+  "organic cotton", "GOTS-certified", "Chlorine-free", "Biodegradable",
   "Community powered", "Made in Europe", "40% to communities", "Dignity, not luxury",
 ];
 

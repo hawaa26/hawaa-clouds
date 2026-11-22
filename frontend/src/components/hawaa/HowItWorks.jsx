@@ -1,5 +1,3 @@
-import { useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
 import { Building2, HeartHandshake } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { Cloud } from "./Clouds";
@@ -15,14 +13,8 @@ const Path = ({ n, icon: Icon, title, text, tone, delay }) => (
   </Reveal>
 );
 
-export const HowItWorks = () => {
-  const ref = useRef(null);
-  const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
-  const y = useTransform(scrollYProgress, [0, 1], [80, -80]);
-  const clip = useTransform(scrollYProgress, [0.1, 0.45], ["inset(18% 18% 18% 18% round 2rem)", "inset(0% 0% 0% 0% round 2rem)"]);
-
-  return (
-    <section id="how" ref={ref} className="relative overflow-hidden bg-gradient-to-b from-[var(--cream)] via-[var(--blue-soft)] to-[var(--cream)] px-5 py-28 sm:px-8 sm:py-40" data-testid="how-section">
+export const HowItWorks = () => (
+  <section id="how" className="relative overflow-hidden bg-gradient-to-b from-[var(--cream)] via-[var(--blue-soft)] to-[var(--cream)] px-5 py-28 sm:px-8 sm:py-40" data-testid="how-section">
       <Cloud tone="blue" className="drift pointer-events-none absolute -right-20 top-20 h-40 w-80 opacity-80" />
       <div className="relative mx-auto max-w-7xl">
         <p className="eyebrow mb-5">The Hawaa solution</p>
@@ -33,20 +25,16 @@ export const HowItWorks = () => {
         <div className="mt-16 grid gap-5 lg:grid-cols-12">
           <div className="grid gap-5 lg:col-span-7">
             <Path n={1} icon={HeartHandshake} delay={0} tone="bg-white/80 backdrop-blur" title="In communities"
-              text="40% of every sale and sponsorship funds products that Hawaa places in community centers, asylum centers and local distribution points, free for every woman and girl who needs them." />
+              text="40% of every sale is donated as products to women in vulnerable communities, placed in centers and distribution points they already trust." />
             <Path n={2} icon={Building2} delay={0.1} tone="bg-[var(--pink-soft)]" title="In workplaces"
               text="Companies stock the same organic products in their own offices, while 40% of each order flows straight into communities that need it." />
           </div>
-          <div className="relative min-h-[26rem] lg:col-span-5">
-            <motion.div style={{ clipPath: clip }} className="absolute inset-0 overflow-hidden rounded-[2rem]">
-              <motion.img style={{ y, scale: 1.25 }} src="/images/community.jpg" alt="Women gathering in an Amsterdam community center" className="h-full w-full object-cover" />
-            </motion.div>
-            <div className="absolute bottom-5 left-5 right-5 rounded-2xl bg-white/85 p-5 backdrop-blur-xl">
-              <p className="font-display text-xl leading-snug" data-testid="how-tagline">One sponsorship, one standard of care, in every place a woman's day takes her.</p>
-            </div>
-          </div>
+          <Reveal delay={0.15} className="flex flex-col justify-center rounded-[2rem] bg-white/80 p-8 backdrop-blur lg:col-span-5 sm:p-12">
+            <p className="eyebrow !text-[var(--blue-deep)]">One standard of care</p>
+            <p className="font-display mt-6 text-3xl leading-snug sm:text-4xl" data-testid="how-tagline">One sponsorship, one standard of care, in every place a woman's day takes her.</p>
+            <p className="mt-5 text-base leading-relaxed text-[var(--ink-soft)]">Community centers, asylum centers and local distribution points women already trust.</p>
+          </Reveal>
         </div>
       </div>
     </section>
-  );
-};
+);

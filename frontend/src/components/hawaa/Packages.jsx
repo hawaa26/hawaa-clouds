@@ -18,7 +18,7 @@ export const Packages = ({ onPick }) => (
             Soft on your team, <span className="font-display-italic text-[var(--pink-deep)]">generous to her.</span>
           </h2>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-[var(--ink-soft)] md:text-lg" data-testid="community-impact">
-            Every package you buy gives <strong className="text-[var(--pink-deep)]">40%</strong> back to women and girls in vulnerable communities and neighbourhoods — free of charge, through trusted distribution points.
+            40% of every sale is donated as products to women in vulnerable communities — the same softness, free of charge.
           </p>
         </div>
         <p className="max-w-md text-base leading-relaxed text-[var(--ink-soft)] md:justify-self-end md:text-lg">

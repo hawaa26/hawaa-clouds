@@ -46,7 +46,7 @@ export const Contact = ({ pkg }) => {
           </p>
           <div className="mt-10 space-y-2 text-[15px]">
             <p className="text-[var(--ink-soft)]">Email</p>
-            <p className="font-display text-2xl">hallo@hawaa.world</p>
+            <a href="mailto:hallo@hawaa.world" className="font-display inline-block text-2xl underline decoration-[var(--pink)] decoration-2 underline-offset-8 transition-colors hover:text-[var(--pink-deep)]" data-testid="contact-email-link">hallo@hawaa.world</a>
           </div>
         </div>
         <Reveal className="lg:col-span-7">

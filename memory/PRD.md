@@ -31,6 +31,16 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 - /social-raw.html — editable HTML source of the graphics; /app/exports mirrors the final files
 - /icon-preview.html — icon family preview
 
+## 2026-11-22 updates v2
+- Stats bento trimmed to 3 cards (25% / 21% / 40%); cotton photo & Amsterdam card removed.
+- Community photo removed from How it works (replaced with quote card).
+- Contact email now a real mailto link: hallo@hawaa.world. KVK 42226651 added to footer.
+- '100%' removed from organic cotton mentions.
+- Name meaning expanded: Hawaa = life/Eve AND heaven, sky, air (weightless comfort) — in mission manifesto.
+- 40% copy: donated as products to women in vulnerable communities.
+- Fonts changed Fraunces+Figtree → DM Serif Display + Outfit (no more wiggly letters). Kept /fonts.html for other options.
+- Colors: purple-ish ink #241E3A replaced with warm brown #4A3628; soft gray #5A5470 → #8A7A6C; rose #B83A6F → #C4558F; deep blue #2F6FA6 → #3D6E8F. Pastel palette only.
+
 ## 2026-11-22 updates
 - Removed floating/parallax CSS clouds everywhere; hero keeps only the pink-sky photo (logo cloud kept).
 - Removed Roadmap and Impact sections from Home; 40% community give-back now stated in Packages + stats bento.

@@ -4,7 +4,7 @@ import { Leaf, Droplets, Recycle, BadgeCheck } from "lucide-react";
 import { Reveal, MaskLines } from "./Reveal";
 
 const feats = [
-  { icon: Leaf, t: "100% organic cotton", d: "Tampons and pads, nothing synthetic." },
+  { icon: Leaf, t: "Pure organic cotton", d: "Tampons and pads, nothing synthetic." },
   { icon: BadgeCheck, t: "GOTS-certified", d: "Certified supply chains, start to finish." },
   { icon: Droplets, t: "Chlorine-free", d: "Gentle on the most sensitive skin." },
   { icon: Recycle, t: "Biodegradable", d: "Plastic-free materials, kinder to the planet." },

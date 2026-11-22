@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Reveal } from "./Reveal";
 
-const manifesto = "Hawaa is life. It is the Arabic and Persian name for Eve, the first woman. Menstrual health is not a matter of hygiene. It is a matter of human dignity.";
+const manifesto = "Hawaa is life — the Arabic and Persian name for Eve, the first woman. It also means heaven, sky and air: a weightless comfort, so soft she forgets it's there.";
 
 const Word = ({ word, progress, range }) => {
   const opacity = useTransform(progress, range, [0.22, 1]);
@@ -34,7 +34,7 @@ export const Mission = () => {
           <Reveal delay={0.1} className="rounded-[2rem] bg-[var(--pink-soft)] p-8 sm:p-12 md:col-span-7">
             <p className="eyebrow">Mission</p>
             <p className="mt-6 text-base leading-relaxed text-[var(--ink)] md:text-lg" data-testid="mission-text">
-              Hawaa embeds premium, 100% organic cotton menstrual care directly into the trusted community networks already serving vulnerable women and girls in the Netherlands. By securing independent corporate funding to absorb the cost of eco-friendly materials, we close the quality gap in aid supply, eliminate barriers to physical dignity, and ensure that a healthy body and a healthy planet are never treated as a luxury.
+              Hawaa embeds premium organic cotton menstrual care directly into the trusted community networks already serving vulnerable women and girls in the Netherlands. By securing independent corporate funding to absorb the cost of eco-friendly materials, we close the quality gap in aid supply, eliminate barriers to physical dignity, and ensure that a healthy body and a healthy planet are never treated as a luxury.
             </p>
           </Reveal>
         </div>

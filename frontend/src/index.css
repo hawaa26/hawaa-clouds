@@ -6,12 +6,12 @@
   --cream: #FBF7F2;
   --pink: #F6CADB;
   --pink-soft: #FBE4EC;
-  --pink-deep: #B83A6F;
+  --pink-deep: #C4558F;
   --blue: #CFE6F7;
   --blue-soft: #E8F3FB;
-  --blue-deep: #2F6FA6;
-  --ink: #241E3A;
-  --ink-soft: #5A5470;
+  --blue-deep: #3D6E8F;
+  --ink: #4A3628;
+  --ink-soft: #8A7A6C;
 }
 
 @layer base {
@@ -43,7 +43,7 @@
     margin: 0;
     background: var(--cream);
     color: var(--ink);
-    font-family: "Figtree", ui-sans-serif, sans-serif;
+    font-family: "Outfit", ui-sans-serif, sans-serif;
   }
   ::selection { background: var(--pink); color: var(--ink); }
 }
@@ -53,14 +53,13 @@ html.lenis, html.lenis body { height: auto; }
 .lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
 
 .font-display {
-  font-family: "Fraunces", Georgia, serif;
-  font-variation-settings: "SOFT" 100, "WONK" 0, "opsz" 144;
+  font-family: "DM Serif Display", Georgia, serif;
+  font-weight: 400;
   letter-spacing: -0.02em;
 }
 .font-display-italic {
-  font-family: "Fraunces", Georgia, serif;
+  font-family: "DM Serif Display", Georgia, serif;
   font-style: italic;
-  font-variation-settings: "SOFT" 100, "WONK" 1, "opsz" 144;
 }
 
 .eyebrow {

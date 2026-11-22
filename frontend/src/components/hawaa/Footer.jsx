@@ -21,7 +21,7 @@ export const Footer = () => {
         </div>
         <p className="font-display mt-20 select-none text-[24vw] font-light leading-[0.8] text-white/90" aria-hidden="true">hawaa</p>
         <div className="mt-8 flex flex-col justify-between gap-2 border-t border-white/10 pt-6 text-xs text-white/70 sm:flex-row">
-          <span>© 2026 Hawaa. Amsterdam, the Netherlands.</span>
+          <span>© 2026 Hawaa. Amsterdam, the Netherlands. KVK 42226651.</span>
           <span>Hawaa is life.</span>
         </div>
       </div>
