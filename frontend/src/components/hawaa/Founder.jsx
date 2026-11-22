@@ -6,7 +6,7 @@ export const Founder = () => (
       <span className="font-display-italic block text-[10rem] leading-[0.5] text-white sm:text-[14rem]" aria-hidden="true">“</span>
       <Reveal>
         <blockquote className="font-display text-3xl font-light leading-[1.2] sm:text-5xl" data-testid="founder-quote">
-          Hawaa is also the name of my niece. Her birth marked a new generation in our family and a chance to do things better. I want her to grow up in a world where she can live her life to the fullest, <span className="font-display-italic text-[var(--pink-deep)]">as a girl and as a woman.</span>
+          I want her to grow up in a world where she can live her life to the fullest, <span className="font-display-italic text-[var(--pink-deep)]">as a girl and as a woman.</span>
         </blockquote>
       </Reveal>
       <Reveal delay={0.15} className="mt-12 flex items-center gap-4">
@@ -15,6 +15,11 @@ export const Founder = () => (
           <p className="font-semibold">Amena Rahjo</p>
           <p className="text-sm text-[var(--ink-soft)]">Founder, Hawaa</p>
         </div>
+      </Reveal>
+      <Reveal delay={0.2} className="mt-10">
+        <p className="max-w-2xl text-base leading-relaxed text-[var(--ink-soft)]">
+          Hawaa is named after my niece — a new generation, and a chance to do things better.
+        </p>
       </Reveal>
     </div>
   </section>

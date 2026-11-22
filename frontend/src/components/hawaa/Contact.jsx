@@ -34,7 +34,7 @@ export const Contact = ({ pkg }) => {
   };
 
   return (
-    <section id="contact" className="px-5 py-28 sm:px-8 sm:py-40" data-testid="contact-section">
+    <section id="contact" className="px-5 py-20 sm:px-8 sm:py-24" data-testid="contact-section">
       <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <p className="eyebrow mb-5">Sponsor Hawaa</p>

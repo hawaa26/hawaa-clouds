@@ -14,7 +14,7 @@ const Path = ({ n, icon: Icon, title, text, tone, delay }) => (
 );
 
 export const HowItWorks = () => (
-  <section id="how" className="relative overflow-hidden bg-gradient-to-b from-[var(--cream)] via-[var(--blue-soft)] to-[var(--cream)] px-5 py-28 sm:px-8 sm:py-40" data-testid="how-section">
+  <section id="how" className="relative overflow-hidden bg-gradient-to-b from-[var(--cream)] via-[var(--blue-soft)] to-[var(--cream)] px-5 py-20 sm:px-8 sm:py-24" data-testid="how-section">
       <Cloud tone="blue" className="drift pointer-events-none absolute -right-20 top-20 h-40 w-80 opacity-80" />
       <div className="relative mx-auto max-w-7xl">
         <p className="eyebrow mb-5">The Hawaa solution</p>

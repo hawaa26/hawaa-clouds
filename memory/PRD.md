@@ -31,6 +31,11 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 - /social-raw.html — editable HTML source of the graphics; /app/exports mirrors the final files
 - /icon-preview.html — icon family preview
 
+## 2026-11-22 updates v4
+- Page shortened further: stats bento (Challenge section) and community photo removed; mission collapsed to manifesto + 2-line intro; stats kept as 3 inline chips in packages (25% / 21% / 40%); Founder kept as one short line.
+- Section paddings trimmed (py-28/40 → py-24/32, marquee py-6).
+- Home now: Hero → Marquee → Mission → How it works → Product → Packages (with stats) → Founder → Contact.
+
 ## 2026-11-22 updates v3
 - Colors: warm brown replaced with pastel palette only — Pearl #FAF8F6 bg, Moonless Sky #46516B ink, Mist #8A93A5 body, Rose #C56B97, Sky Deep #5A8FAE. All browns gone.
 - Brand kit updated (Pearl, Moonless Sky, Mist names + DM Serif Display/Outfit fonts + code download note).

@@ -4,7 +4,7 @@ const words = [
 ];
 
 export const Marquee = () => (
-  <section className="relative overflow-hidden border-y border-[var(--ink)]/10 bg-[var(--cream)] py-8" data-testid="editorial-marquee">
+  <section className="relative overflow-hidden border-y border-[var(--ink)]/10 bg-[var(--cream)] py-6" data-testid="editorial-marquee">
     <div className="marquee-track flex w-max">
       {[0, 1].map((k) => (
         <div key={k} className="flex shrink-0 items-center" aria-hidden={k === 1}>

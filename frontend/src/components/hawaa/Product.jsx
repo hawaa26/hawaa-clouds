@@ -17,7 +17,7 @@ export const Product = () => {
   const y2 = useTransform(scrollYProgress, [0, 1], [140, -140]);
 
   return (
-    <section ref={ref} className="relative overflow-hidden bg-[var(--ink)] px-5 py-28 text-white sm:px-8 sm:py-40" data-testid="product-section">
+    <section ref={ref} className="relative overflow-hidden bg-[var(--ink)] px-5 py-20 text-white sm:px-8 sm:py-24" data-testid="product-section">
       <div className="pointer-events-none absolute left-1/2 top-1/3 h-[38rem] w-[38rem] -translate-x-1/2 rounded-full bg-[var(--pink)]/20 blur-[120px]" />
       <div className="relative mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-2">
         <div className="relative mx-auto h-[30rem] w-full max-w-md sm:h-[36rem]">
