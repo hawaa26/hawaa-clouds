@@ -17,9 +17,9 @@ export const HowItWorks = () => (
   <section id="how" className="relative overflow-hidden bg-gradient-to-b from-[var(--cream)] via-[var(--blue-soft)] to-[var(--cream)] px-5 py-20 sm:px-8 sm:py-24" data-testid="how-section">
       <Cloud tone="blue" className="drift pointer-events-none absolute -right-20 top-20 h-40 w-80 opacity-80" />
       <div className="relative mx-auto max-w-7xl">
-        <p className="eyebrow mb-5">The Hawaa solution</p>
+        <p className="eyebrow mb-5">How it works</p>
         <h2 className="font-display max-w-4xl text-4xl font-light leading-[1.02] sm:text-6xl">
-          Period care is a basic need. Hawaa makes it a <span className="font-display-italic text-[var(--blue-deep)]">given</span>, wherever women are.
+          Period care is a basic need. The given must be <span className="font-display-italic text-[var(--blue-deep)]">quality</span> — organic, chlorine-free and gentle.
         </h2>
 
         <div className="mt-16 grid gap-5 lg:grid-cols-12">

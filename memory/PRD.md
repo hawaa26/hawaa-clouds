@@ -31,6 +31,12 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 - /social-raw.html — editable HTML source of the graphics; /app/exports mirrors the final files
 - /icon-preview.html — icon family preview
 
+## 2026-11-22 updates v5
+- Ink color replaced: #46516B → #3F5E8A (Deep Sky, softer muted blue, no longer near-black); Mist #8A93A5 → #8FA0B8. Footer/CTA dark is now Deep Sky.
+- 'The Hawaa solution' removed; section now says 'The given must be quality — organic, chlorine-free and gentle.'
+- Stat chips (25%/21%/40%) removed from packages; only the 40% copy remains. Page even shorter.
+- Packages: Sunrise / Blush Sky / Open Heaven with 'Price on request', features mention 40%.
+
 ## 2026-11-22 updates v4
 - Page shortened further: stats bento (Challenge section) and community photo removed; mission collapsed to manifesto + 2-line intro; stats kept as 3 inline chips in packages (25% / 21% / 40%); Founder kept as one short line.
 - Section paddings trimmed (py-28/40 → py-24/32, marquee py-6).

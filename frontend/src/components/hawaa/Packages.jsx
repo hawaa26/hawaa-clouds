@@ -18,17 +18,9 @@ export const Packages = ({ onPick }) => (
             Soft on your team, <span className="font-display-italic text-[var(--pink-deep)]">generous to her.</span>
           </h2>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-[var(--ink-soft)] md:text-lg" data-testid="community-impact">
-            40% of every sale is donated as products to women in vulnerable communities — the same softness, free of charge.
+            Your sponsorship stocks premium organic period care for your own team, and 40% of every package flows to women and girls in vulnerable communities and neighbourhoods.
           </p>
-          <div className="mt-8 flex flex-wrap items-center gap-3" data-testid="stats-inline">
-            <span className="rounded-full bg-[var(--blue-soft)] px-4 py-2 text-sm font-semibold text-[var(--blue-deep)]">25% could not afford period products in NL</span>
-            <span className="rounded-full bg-[var(--pink-soft)] px-4 py-2 text-sm font-semibold text-[var(--pink-deep)]">21% used unsafe alternatives</span>
-            <span className="rounded-full bg-[var(--pink)] px-4 py-2 text-sm font-semibold text-[var(--ink)]">40% given back</span>
-          </div>
         </div>
-        <p className="max-w-md text-base leading-relaxed text-[var(--ink-soft)] md:justify-self-end md:text-lg">
-          Your sponsorship stocks premium organic period care for your own team, and 40% of every package flows to women and girls in vulnerable communities and neighbourhoods.
-        </p>
       </div>
       <div className="grid gap-4 lg:grid-cols-3">
         {tiers.map((t, i) => (
