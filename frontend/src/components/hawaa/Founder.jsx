@@ -1,7 +1,7 @@
 import { Reveal } from "./Reveal";
 
 export const Founder = () => (
-  <section className="relative overflow-hidden bg-gradient-to-br from-[var(--blue)] via-[var(--blue-soft)] to-[var(--pink)] px-5 py-28 sm:px-8 sm:py-40" data-testid="founder-section">
+  <section className="relative overflow-hidden bg-gradient-to-br from-[var(--blue)] via-[var(--blue-soft)] to-[var(--pink)] px-5 py-20 sm:px-8 sm:py-24" data-testid="founder-section">
     <div className="relative mx-auto max-w-5xl">
       <span className="font-display-italic block text-[10rem] leading-[0.5] text-white sm:text-[14rem]" aria-hidden="true">“</span>
       <Reveal>

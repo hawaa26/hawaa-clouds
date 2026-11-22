@@ -9,7 +9,7 @@ export const Footer = () => {
       <div className="mx-auto max-w-7xl">
         <div className="grid gap-10 md:grid-cols-3">
           <div>
-            <LogoMark className="h-12 w-12" />
+            <LogoMark className="h-12 w-12 rounded-2xl" />
             <p className="mt-6 max-w-xs text-[15px] text-white/75">Period care is a basic need. Hawaa makes it a given, wherever women are.</p>
           </div>
           <div className="space-y-3 text-[15px]">

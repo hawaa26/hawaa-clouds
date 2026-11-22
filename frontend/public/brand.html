@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
 <style>
-  :root { --cream:#FAF8F6; --pink:#F6CADB; --pink-soft:#FBE4EC; --rose:#C56B97; --blue:#CFE6F7; --blue-soft:#E8F3FB; --blue-deep:#5A8FAE; --ink:#3F5E8A; }
+  :root { --cream:#FAF8F6; --pink:#F6CADB; --pink-soft:#FBE4EC; --rose:#C56B97; --blue:#CFE6F7; --blue-soft:#E8F3FB; --blue-deep:#3F5E8A; --ink:#3F5E8A; }
   * { box-sizing:border-box; }
   body { margin:0; background:var(--cream); color:var(--ink); font-family:"Outfit",sans-serif; padding:56px 32px 100px; }
   .wrap { max-width:1080px; margin:0 auto; }
@@ -39,34 +39,30 @@
   <h2>Logo</h2>
   <div class="row">
     <div class="card center">
-      <div class="logo-box"><svg viewBox="0 0 64 64" width="150" height="150"><defs><linearGradient id="s1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9ECF9"/><stop offset="1" stop-color="#FBE3EC"/></linearGradient><linearGradient id="h1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3B8D3"/><stop offset="1" stop-color="#DE8FBB"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#s1)"/><g fill="#fff"><circle cx="21" cy="33" r="9.5"/><circle cx="32" cy="27" r="12"/><circle cx="43" cy="33" r="9.5"/><rect x="13" y="33" width="38" height="11" rx="5.5"/></g><path d="M32 38C28 34.5 25.2 32.1 25.2 29.4c0-2.1 1.7-3.5 3.6-3.5 1.4 0 2.6.8 3.2 2 .6-1.2 1.8-2 3.2-2 1.9 0 3.6 1.4 3.6 3.5 0 2.7-2.8 5.1-6.8 8.6z" fill="url(#h1)"/></svg></div>
-      <h4>Primary — rounded square</h4><small>App icon, favicon, avatars, print stickers.</small>
-      <a class="dl" href="favicon.svg" download>SVG</a> <a class="dl" href="favicon.ico" download>ICO</a>
+      <div class="logo-box"><img src="logo-mark.png" width="150" height="150" alt="" /></div>
+      <h4>App icon — rounded square</h4><small>Favicon, avatars, iOS/Android icons.</small>
+      <a class="dl" href="logo-mark.png" download>PNG</a> <a class="dl" href="favicon.ico" download>ICO</a>
     </div>
     <div class="card center">
-      <div class="logo-box"><svg viewBox="0 0 64 64" width="150" height="150"><defs><linearGradient id="s2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D9ECF9"/><stop offset="1" stop-color="#FBE3EC"/></linearGradient><linearGradient id="h2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F3B8D3"/><stop offset="1" stop-color="#DE8FBB"/></linearGradient></defs><rect width="64" height="64" fill="url(#s2)"/><g fill="#fff"><circle cx="21" cy="33" r="9.5"/><circle cx="32" cy="27" r="12"/><circle cx="43" cy="33" r="9.5"/><rect x="13" y="33" width="38" height="11" rx="5.5"/></g><path d="M32 38C28 34.5 25.2 32.1 25.2 29.4c0-2.1 1.7-3.5 3.6-3.5 1.4 0 2.6.8 3.2 2 .6-1.2 1.8-2 3.2-2 1.9 0 3.6 1.4 3.6 3.5 0 2.7-2.8 5.1-6.8 8.6z" fill="url(#h2)"/></svg></div>
-      <h4>Full-bleed square</h4><small>Social profile pictures, iOS &amp; Android icons (platform crops the shape).</small>
-      <a class="dl" href="social.svg" download>SVG</a> <a class="dl" href="icons/social-1024.png" download>PNG 1024</a>
+      <div class="logo-box" style="padding:0;overflow:hidden"><img src="icons/social-1024.png" width="150" height="150" style="object-fit:cover" alt="" /></div>
+      <h4>Social square</h4><small>LinkedIn/Instagram/WhatsApp profile pictures.</small>
+      <a class="dl" href="icons/social-1024.png" download>PNG 1024</a>
     </div>
+
     <div class="card center">
-      <div class="logo-box" style="background:linear-gradient(135deg,#D9ECF9,#FBE3EC)"><img src="brand/mark-transparent.svg" width="150" height="150" alt="" /></div>
-      <h4>Mark on transparent</h4><small>The cloud &amp; heart alone, for light backgrounds and watermarks.</small>
-      <a class="dl" href="brand/mark-transparent.svg" download>SVG</a>
-    </div>
-    <div class="card center">
-      <div style="border-radius:22px;background:linear-gradient(135deg,#D9ECF9,#FBE3EC);padding:30px 20px"><span style="font-family:'DM Serif Display',serif;font-weight:400;font-size:44px;letter-spacing:-.02em">hawaa</span></div>
-      <h4>Wordmark</h4><small>Always set in DM Serif Display, slightly tightened. Lowercase only.</small>
+      <div class="logo-box" style="padding:14px"><img src="logo-hawaa.jpeg" style="width:100%;border-radius:14px" alt="Hawaa logo" /></div>
+      <h4>Full logo — your upload</h4><small>The final Hawaa mark with wordmark &amp; tagline.</small>
+      <a class="dl" href="logo-hawaa.jpeg" download>Download JPEG</a>
     </div>
   </div>
 
   <h2>Colors</h2>
   <div class="row">
     <div class="card"><div class="sw" style="background:#FAF8F6"></div><h4>Pearl</h4><small>#FAF8F6 — main background</small></div>
-    <div class="card"><div class="sw" style="background:#D9ECF9"></div><h4>Sky Blue</h4><small>#D9ECF9 — gradient top, surfaces</small></div>
+    <div class="card"><div class="sw" style="background:#CFE6F7"></div><h4>Sky Blue</h4><small>#CFE6F7 — gradient top, surfaces</small></div>
     <div class="card"><div class="sw" style="background:#FBE3EC"></div><h4>Blush</h4><small>#FBE3EC — gradient bottom, tint cards</small></div>
     <div class="card"><div class="sw" style="background:#F6CADB"></div><h4>Baby Pink</h4><small>#F6CADB — accents, highlights</small></div>
     <div class="card"><div class="sw" style="background:#C56B97"></div><h4>Rose</h4><small>#C56B97 — eyebrows, emphasis text</small></div>
-    <div class="card"><div class="sw" style="background:#5A8FAE"></div><h4>Sky Deep</h4><small>#5A8FAE — blue emphasis text</small></div>
     <div class="card"><div class="sw" style="background:#3F5E8A"></div><h4>Deep Sky</h4><small>#3F5E8A — headlines, buttons</small></div>
     <div class="card"><div class="sw" style="background:#8FA0B8"></div><h4>Mist</h4><small>#8FA0B8 — body copy</small></div>
   </div>
@@ -77,7 +73,7 @@
       <p class="eyebrow-sample">Display — DM Serif Display</p>
       <p class="type-a" style="margin:10px 0 6px">Period care, soft as a cloud.</p>
       <p class="type-b" style="margin:0 0 10px">Soft as a cloud.</p>
-      <p class="type-c" style="color:#8FA0B8">Headlines &amp; the wordmark. Use regular 400, italics for emphasis. <a href="https://fonts.google.com/specimen/DM+Serif+Display" target="_blank" style="color:var(--rose)">Get DM Serif Display</a></p>
+      <p class="type-c" style="color:#8FA0B8">Headlines. Use regular 400, italics for emphasis. The wordmark in your logo is custom — don't recreate it. <a href="https://fonts.google.com/specimen/DM+Serif+Display" target="_blank" style="color:var(--rose)">Get DM Serif Display</a></p>
     </div>
     <div class="card" style="flex:1 1 260px">
       <p class="eyebrow-sample" style="color:#8FA0B8">Body — Outfit</p>
@@ -104,7 +100,7 @@
     <li>Don't stretch, rotate, recolor or add drop shadows to the logo.</li>
     <li>On busy photos, place the white cloud version (mark-transparent.svg) over a soft gradient chip.</li>
     <li>Headlines sentence case, one italic phrase max per headline.</li>
-    <li>The heart is always the only filled element inside the cloud — never move it off-center.</li>
+    <li>Keep the uploaded logo as-is; don't recolor, crop the wordmark out, or redraw it.</li>
   </ul>
 </div>
 </body>

@@ -31,6 +31,11 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 - /social-raw.html — editable HTML source of the graphics; /app/exports mirrors the final files
 - /icon-preview.html — icon family preview
 
+## 2026-11-22 updates v6
+- Logo replaced with the user's uploaded Hawaa artwork (arch + wordmark + CONSCIOUS CARE). Used in menu, footer, favicon and full icon family (arch art only inside icons); original file kept at /logo-hawaa.jpeg.
+- Baby blue unified to #CFE6F7 everywhere (removed #D9ECF9 and duplicate swatch); Deep Sky is the single dark accent.
+- Brand kit updated: shows uploaded full logo, app icon, social square; wordmark card removed (custom lettering); colors/fonts/usage rules refreshed.
+
 ## 2026-11-22 updates v5
 - Ink color replaced: #46516B → #3F5E8A (Deep Sky, softer muted blue, no longer near-black); Mist #8A93A5 → #8FA0B8. Footer/CTA dark is now Deep Sky.
 - 'The Hawaa solution' removed; section now says 'The given must be quality — organic, chlorine-free and gentle.'
