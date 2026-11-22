@@ -31,6 +31,13 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 - /social-raw.html — editable HTML source of the graphics; /app/exports mirrors the final files
 - /icon-preview.html — icon family preview
 
+## 2026-11-22 updates
+- Removed floating/parallax CSS clouds everywhere; hero keeps only the pink-sky photo (logo cloud kept).
+- Removed Roadmap and Impact sections from Home; 40% community give-back now stated in Packages + stats bento.
+- Buy-one-gift-one replaced by 40% model (eenmanszaak): 40% of every sale and sponsorship goes to vulnerable communities & neighbourhoods. Copy updated in hero, marquee, how-it-works, packages, footer, shop link, stats, social pack.
+- Packages renamed Seedling/Cumulus/Open Sky → Sunrise / Blush Sky / Open Heaven.
+- Fonts exploration page at /fonts.html (6 pairings).
+
 ## Backlog
 - P1: email notification to admin on new enquiry; CSV export
 - P1: real figures/impact counter once pilot runs

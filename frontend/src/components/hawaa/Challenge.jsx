@@ -66,6 +66,13 @@ export const Challenge = () => (
           <motion.img src="/images/cotton.jpg" alt="Raw organic cotton boll" whileHover={{ scale: 1.08 }} transition={{ duration: 1.2 }}
             className="absolute inset-0 h-full w-full object-cover" />
         </Reveal>
+        <Card className="bg-[var(--pink)] md:col-span-2" delay={0.12} testid="stat-40">
+          <p className="eyebrow !text-[var(--ink)]">The give-back</p>
+          <div>
+            <p className="font-display text-7xl font-light"><Count to={40} /></p>
+            <p className="mt-2 max-w-sm text-[15px] text-[var(--ink)]/80">of every sale is donated to women and girls in vulnerable communities and neighbourhoods.</p>
+          </div>
+        </Card>
         <Card className="border border-[var(--ink)]/10 bg-white" delay={0.2} testid="stat-disparity">
           <p className="eyebrow">The organic disparity</p>
           <p className="text-[15px] leading-relaxed text-[var(--ink-soft)]">

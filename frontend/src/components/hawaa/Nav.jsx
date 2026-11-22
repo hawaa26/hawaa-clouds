@@ -10,7 +10,6 @@ const links = [
   { id: "mission", label: "Mission" },
   { id: "how", label: "How it works" },
   { id: "packages", label: "For companies" },
-  { id: "impact", label: "Impact" },
   { id: "contact", label: "Contact" },
 ];
 

@@ -33,9 +33,9 @@ export const HowItWorks = () => {
         <div className="mt-16 grid gap-5 lg:grid-cols-12">
           <div className="grid gap-5 lg:col-span-7">
             <Path n={1} icon={HeartHandshake} delay={0} tone="bg-white/80 backdrop-blur" title="In communities"
-              text="Sponsors fund the products, and Hawaa places them in community centers, asylum centers and local distribution points, free for every woman and girl who needs them." />
+              text="40% of every sale and sponsorship funds products that Hawaa places in community centers, asylum centers and local distribution points, free for every woman and girl who needs them." />
             <Path n={2} icon={Building2} delay={0.1} tone="bg-[var(--pink-soft)]" title="In workplaces"
-              text="Companies stock the same organic products in their own offices. Each pack in your office is matched by a pack in a community that needs it." />
+              text="Companies stock the same organic products in their own offices, while 40% of each order flows straight into communities that need it." />
           </div>
           <div className="relative min-h-[26rem] lg:col-span-5">
             <motion.div style={{ clipPath: clip }} className="absolute inset-0 overflow-hidden rounded-[2rem]">

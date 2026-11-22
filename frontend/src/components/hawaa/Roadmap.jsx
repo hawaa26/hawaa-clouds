@@ -32,8 +32,8 @@ export const Roadmap = () => {
             </Reveal>
             <Reveal delay={0.1} className="rounded-[2rem] bg-[var(--ink)] p-7 text-white">
               <p className="text-xs font-semibold uppercase tracking-widest text-white/75">Funding engine</p>
-              <p className="font-display mt-4 text-3xl sm:text-4xl">Buy One, Gift One</p>
-              <p className="mt-2 text-sm text-white/75">Corporate sponsorship framework.</p>
+              <p className="font-display mt-4 text-3xl sm:text-4xl">40% Give-Back</p>
+              <p className="mt-2 text-sm text-white/75">40% of every sale and sponsorship goes to vulnerable communities and neighbourhoods.</p>
             </Reveal>
           </div>
         </div>

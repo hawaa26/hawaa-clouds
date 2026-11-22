@@ -3,9 +3,9 @@ import { Reveal } from "./Reveal";
 import { scrollToId } from "../../lib/lenis";
 
 const tiers = [
-  { id: "seedling", name: "Seedling", size: "Up to 50 employees", tone: "bg-white", feats: ["Organic pads & tampons stocked in your office", "Every pack matched 1:1 in a community", "Quarterly impact note"] },
-  { id: "cumulus", name: "Cumulus", size: "50 – 250 employees", tone: "bg-[var(--pink-soft)]", featured: true, feats: ["Everything in Seedling", "Multiple office locations", "Co-branded impact story for your team", "Named partner of a distribution point"] },
-  { id: "open-sky", name: "Open Sky", size: "250+ employees or grants", tone: "bg-[var(--blue-soft)]", feats: ["Everything in Cumulus", "Fund a whole neighbourhood or asylum center", "Founding partner of the Amsterdam pilot"] },
+  { id: "sunrise", name: "Sunrise", size: "Up to 50 employees", tone: "bg-white", feats: ["Organic pads & tampons stocked in your office", "40% of every order gifted to communities", "Quarterly impact note"] },
+  { id: "blush-sky", name: "Blush Sky", size: "50 – 250 employees", tone: "bg-[var(--pink-soft)]", featured: true, feats: ["Everything in Sunrise", "Multiple office locations", "Co-branded impact story for your team", "Named partner of a distribution point"] },
+  { id: "open-heaven", name: "Open Heaven", size: "250+ employees or grants", tone: "bg-[var(--blue-soft)]", feats: ["Everything in Blush Sky", "Fund a whole neighbourhood or asylum center", "Founding partner of the Amsterdam pilot"] },
 ];
 
 export const Packages = ({ onPick }) => (
@@ -15,11 +15,14 @@ export const Packages = ({ onPick }) => (
         <div>
           <p className="eyebrow mb-5">For companies</p>
           <h2 className="font-display text-4xl font-light leading-[1.02] sm:text-6xl">
-            Buy one, gift one, <span className="font-display-italic text-[var(--pink-deep)]">at work.</span>
+            Soft on your team, <span className="font-display-italic text-[var(--pink-deep)]">generous to her.</span>
           </h2>
+          <p className="mt-6 max-w-2xl text-base leading-relaxed text-[var(--ink-soft)] md:text-lg" data-testid="community-impact">
+            Every package you buy gives <strong className="text-[var(--pink-deep)]">40%</strong> back to women and girls in vulnerable communities and neighbourhoods — free of charge, through trusted distribution points.
+          </p>
         </div>
         <p className="max-w-md text-base leading-relaxed text-[var(--ink-soft)] md:justify-self-end md:text-lg">
-          Your sponsorship stocks premium organic period care for your own team and funds the same standard of care for women and girls who cannot afford it.
+          Your sponsorship stocks premium organic period care for your own team, and 40% of every package flows to women and girls in vulnerable communities and neighbourhoods.
         </p>
       </div>
       <div className="grid gap-4 lg:grid-cols-3">

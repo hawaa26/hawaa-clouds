@@ -13,7 +13,7 @@ export const Footer = () => {
             <p className="mt-6 max-w-xs text-[15px] text-white/75">Period care is a basic need. Hawaa makes it a given, wherever women are.</p>
           </div>
           <div className="space-y-3 text-[15px]">
-            <Link to="/shop" className="block hover:text-[var(--pink)]" data-testid="footer-shop-link">Shop: buy one, gift one</Link>
+            <Link to="/shop" className="block hover:text-[var(--pink)]" data-testid="footer-shop-link">Shop: 40% goes to communities</Link>
             <button onClick={openDonate} className="block hover:text-[var(--pink)]" data-testid="footer-donate-btn">Make a donation</button>
             <Link to="/admin" className="block text-white/70 hover:text-white" data-testid="footer-admin-link">Team login</Link>
           </div>
