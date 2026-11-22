@@ -28,7 +28,7 @@ export const Hero = () => {
         <h1 className="font-display text-[15vw] font-light leading-[0.88] text-[var(--ink)] sm:text-[11vw] lg:text-[8.6rem]" data-testid="hero-title">
           <MaskLines delay={0.35} lines={[
             "Period care,",
-            <span key="b">soft as a <span className="font-display-italic text-[var(--pink-deep)]">cloud.</span></span>,
+            "soft as a cloud.",
             <span key="c" className="text-[var(--blue-deep)]">For every woman.</span>,
           ]} />
         </h1>

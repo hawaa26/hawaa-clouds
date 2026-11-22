@@ -63,7 +63,7 @@ export const Nav = () => {
               {count > 0 && <span data-testid="nav-cart-count" className="absolute -right-1 -top-1 grid h-5 w-5 place-items-center rounded-full bg-[var(--pink-deep)] text-[10px] font-bold text-white">{count}</span>}
             </button>
           )}
-          <button onClick={() => openDonate()} data-testid="nav-donate-btn"
+          <button id="donate" onClick={() => openDonate()} data-testid="nav-donate-btn"
             className="group flex items-center gap-2 rounded-full bg-[var(--ink)] px-4 py-2.5 text-sm font-semibold text-white transition-transform duration-300 hover:scale-[1.04]">
             <Heart className="h-4 w-4 fill-[var(--pink)] text-[var(--pink)] transition-transform group-hover:scale-125" />
             Donate

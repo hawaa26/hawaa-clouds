@@ -31,6 +31,14 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 - /social-raw.html — editable HTML source of the graphics; /app/exports mirrors the final files
 - /icon-preview.html — icon family preview
 
+## 2026-11-22 updates v7
+- Logo replaced with user's uploaded artwork (arch + wordmark + CONSCIOUS CARE) everywhere: menu, footer, favicon, icons, social square, brand kit.
+- Baby blue unified to #CFE6F7 everywhere; Blush accent changed to #E8F3FB (soft baby blue from Open Heaven card); rose #C56B97; deep sky #3F5E8A.
+- 'Open Heaven' package renamed 'Above the Clouds'.
+- 'soft as a cloud' highlight removed from hero; only 'For every woman.' stays accented.
+- Founder quote merged into Mission section (name meaning + niece story together); separate Founder section removed.
+- Packages section now states: individuals can also buy products (/shop) or donate directly (opens donate dialog).
+
 ## 2026-11-22 updates v6
 - Logo replaced with the user's uploaded Hawaa artwork (arch + wordmark + CONSCIOUS CARE). Used in menu, footer, favicon and full icon family (arch art only inside icons); original file kept at /logo-hawaa.jpeg.
 - Baby blue unified to #CFE6F7 everywhere (removed #D9ECF9 and duplicate swatch); Deep Sky is the single dark accent.

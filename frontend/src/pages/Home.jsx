@@ -5,7 +5,6 @@ import { Mission } from "../components/hawaa/Mission";
 import { HowItWorks } from "../components/hawaa/HowItWorks";
 import { Product } from "../components/hawaa/Product";
 import { Packages } from "../components/hawaa/Packages";
-import { Founder } from "../components/hawaa/Founder";
 import { Contact } from "../components/hawaa/Contact";
 
 export default function Home() {
@@ -18,7 +17,6 @@ export default function Home() {
       <HowItWorks />
       <Product />
       <Packages onPick={setPkg} />
-      <Founder />
       <Contact pkg={pkg} />
     </main>
   );

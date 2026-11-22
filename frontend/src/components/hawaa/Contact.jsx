@@ -69,7 +69,7 @@ export const Contact = ({ pkg }) => {
               </select>
               <select className={field} value={f.package} onChange={on("package")} data-testid="enquiry-package-select">
                 <option value="">Package of interest</option>
-                <option>Sunrise</option><option>Blush Sky</option><option>Open Heaven</option><option>Grant / other</option>
+                <option>Sunrise</option><option>Blush Sky</option><option>Above the Clouds</option><option>Grant / other</option>
               </select>
               <textarea rows={5} className={`${field} sm:col-span-2`} placeholder="Tell us a little about your goals" value={f.message} onChange={on("message")} data-testid="enquiry-message-input" />
               <button type="submit" disabled={busy} data-testid="enquiry-submit-btn"
