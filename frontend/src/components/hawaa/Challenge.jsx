@@ -41,7 +41,7 @@ export const Challenge = () => (
       </div>
 
       <div className="grid gap-4 md:grid-cols-3">
-        <Card className="bg-[var(--ink)] text-white" testid="stat-afford">
+        <Card className="bg-[var(--blue-deep)] text-white" testid="stat-afford">
           <p className="eyebrow !text-[var(--pink)]">Netherlands</p>
           <div>
             <p className="font-display text-7xl font-light leading-none sm:text-8xl"><Count to={25} /></p>

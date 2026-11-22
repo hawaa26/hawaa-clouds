@@ -31,6 +31,11 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 - /social-raw.html — editable HTML source of the graphics; /app/exports mirrors the final files
 - /icon-preview.html — icon family preview
 
+## 2026-11-22 updates v3
+- Colors: warm brown replaced with pastel palette only — Pearl #FAF8F6 bg, Moonless Sky #46516B ink, Mist #8A93A5 body, Rose #C56B97, Sky Deep #5A8FAE. All browns gone.
+- Brand kit updated (Pearl, Moonless Sky, Mist names + DM Serif Display/Outfit fonts + code download note).
+- Social pack + ZIP re-exported in pastel palette; all '100%' mentions removed from graphics/captions.
+
 ## 2026-11-22 updates v2
 - Stats bento trimmed to 3 cards (25% / 21% / 40%); cotton photo & Amsterdam card removed.
 - Community photo removed from How it works (replaced with quote card).

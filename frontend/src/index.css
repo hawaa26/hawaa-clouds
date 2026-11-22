@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 :root {
-  --cream: #FBF7F2;
+  --cream: #FAF8F6;
   --pink: #F6CADB;
   --pink-soft: #FBE4EC;
-  --pink-deep: #C4558F;
+  --pink-deep: #C56B97;
   --blue: #CFE6F7;
   --blue-soft: #E8F3FB;
-  --blue-deep: #3D6E8F;
-  --ink: #4A3628;
-  --ink-soft: #8A7A6C;
+  --blue-deep: #5A8FAE;
+  --ink: #46516B;
+  --ink-soft: #8A93A5;
 }
 
 @layer base {
   :root {
-    --background: 36 50% 97%;
+    --background: 300 10% 98%;
     --foreground: 252 32% 17%;
     --card: 0 0% 100%;
     --card-foreground: 252 32% 17%;
@@ -26,7 +26,7 @@
     --primary-foreground: 36 50% 97%;
     --secondary: 205 70% 89%;
     --secondary-foreground: 252 32% 17%;
-    --muted: 36 30% 93%;
+    --muted: 300 20% 96%;
     --muted-foreground: 252 12% 38%;
     --accent: 338 70% 88%;
     --accent-foreground: 252 32% 17%;
