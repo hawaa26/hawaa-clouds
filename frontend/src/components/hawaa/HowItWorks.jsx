@@ -25,9 +25,9 @@ export const HowItWorks = () => (
       <div className="mt-16 grid gap-5 lg:grid-cols-12">
         <div className="grid gap-5 lg:col-span-7">
           <Path n={1} icon={Building2} delay={0} tone="bg-white/80 backdrop-blur" title="In workplaces"
-            text="Companies stock organic period care for their teams, and 40% of every order flows into communities that need it." />
-          <Path n={2} icon={HeartHandshake} delay={0.1} tone="bg-[var(--pink-soft)]" title="At home, for her"
-            text="Individuals buy the same products for themselves, and 40% is donated as products to women in vulnerable communities — through trusted centers and distribution points." />
+            text="Companies stock organic period care for their teams, and 30% of every order flows into communities that need it." />
+          <Path n={2} icon={HeartHandshake} delay={0.1} tone="bg-[var(--pink-soft)]" title="At home, and for her"
+            text="Individuals buy the same products for themselves, and 30% is donated as products to women in vulnerable communities — through trusted centers and distribution points." />
         </div>
         <Reveal delay={0.15} className="flex flex-col justify-center rounded-[2rem] bg-white/80 p-8 backdrop-blur lg:col-span-5 sm:p-12">
           <p className="eyebrow !text-[var(--blue-deep)]">One standard of care</p>

@@ -35,7 +35,7 @@ export const Hero = () => {
         <div className="mt-10 flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
           <motion.p className="max-w-md text-base leading-relaxed text-[var(--ink)] md:text-lg"
             initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.1, duration: 0.9 }}>
-            Corporates sponsor organic, GOTS-certified cotton tampons and pads for their teams, and 40% of every order is donated as products to women and girls in vulnerable communities and neighbourhoods.
+            Corporates sponsor organic, GOTS-certified cotton tampons and pads for their teams, and 30% of every order is donated as products to women and girls in vulnerable communities and neighbourhoods.
           </motion.p>
           <motion.div className="flex flex-wrap gap-3" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.3, duration: 0.9 }}>
             <button onClick={() => scrollToId("contact")} data-testid="hero-sponsor-btn"
@@ -44,7 +44,7 @@ export const Hero = () => {
             </button>
             <Link to="/shop" data-testid="hero-shop-btn"
               className="group flex items-center gap-2 rounded-full bg-white/80 px-6 py-4 text-sm font-semibold backdrop-blur transition-transform duration-300 hover:scale-[1.04]">
-              40% goes to her <ArrowUpRight className="h-4 w-4 transition-transform group-hover:rotate-45" />
+              30% goes to her <ArrowUpRight className="h-4 w-4 transition-transform group-hover:rotate-45" />
             </Link>
           </motion.div>
         </div>

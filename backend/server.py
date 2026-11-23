@@ -223,7 +223,7 @@ async def list_payments(admin=Depends(current_admin)):
 # ---------- shop & payments ----------
 @api.get("/shop/products")
 async def shop_products():
-    return [{k: p[k] for k in ("lookup_key", "name", "amount", "description", "image", "tint")} for p in PRODUCTS]
+    return [{k: p[k] for k in ("lookup_key", "name", "amount", "description", "pieces", "image", "tint") if k in p} for p in PRODUCTS]
 
 
 def create_session(kwargs, taxed):

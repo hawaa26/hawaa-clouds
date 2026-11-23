@@ -31,6 +31,14 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 - /social-raw.html — editable HTML source of the graphics; /app/exports mirrors the final files
 - /icon-preview.html — icon family preview
 
+## 2026-11-22 updates v9
+- Footer switched from dark ink to pastel gradient (blue-soft → pink-soft → pink); text and big 'hawaa' wordmark now in muted rose.
+- Logo CONSCIOUS CARE tagline not shown on site (kept in brand kit as full logo).
+- 40% changed to 30% everywhere (site, shop, social pack, brand kit).
+- Pack counts: Cloud Pads 8, Cloud Tampons 8, Cycle Box 20 (shown on shop cards + descriptions).
+- How-it-works: 'At home, and for her' (individuals who buy products and support communities).
+- Niece quote highlight changed to 'choice between her budget, her body, and the planet' (with comma).
+
 ## 2026-11-22 updates v8
 - 'as a girl and as a woman' highlight removed from niece quote; highlight now on 'choice between her budget, her body and the planet'.
 - Statistics citations (Opinium & Neighborhood Feminists) removed from social pack.

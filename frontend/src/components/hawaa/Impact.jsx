@@ -31,7 +31,7 @@ export const Impact = () => (
           <p className="eyebrow !text-[var(--blue-deep)]">How it's funded</p>
           <p className="font-display mt-6 text-3xl leading-tight sm:text-4xl">Independent sponsorships and grants.</p>
           <p className="mt-5 text-base leading-relaxed text-[var(--ink-soft)]">
-            Hawaa raises independent corporate sponsorships and grants to absorb the cost of eco-friendly materials, and gives 40% of every sale to vulnerable communities and neighbourhoods, so premium products reach the women and girls who need them through channels they already trust.
+            Hawaa raises independent corporate sponsorships and grants to absorb the cost of eco-friendly materials, and gives 30% of every sale to vulnerable communities and neighbourhoods, so premium products reach the women and girls who need them through channels they already trust.
           </p>
         </div>
         <div className="relative min-h-[18rem]">

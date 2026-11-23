@@ -24,7 +24,7 @@ export const Mission = () => {
           ))}
         </p>
         <p className="mt-10 max-w-2xl text-base leading-relaxed text-[var(--ink-soft)] md:text-lg" data-testid="mission-text">
-          Hawaa embeds premium organic cotton menstrual care into the trusted networks already serving vulnerable women and girls in the Netherlands, so a low income never forces a <span className="font-display-italic font-semibold text-[var(--pink-deep)]">choice between her budget, her body and the planet</span>.
+          Hawaa embeds premium organic cotton menstrual care into the trusted networks already serving vulnerable women and girls in the Netherlands, so a low income never forces a <span className="font-display-italic font-semibold text-[var(--pink-deep)]">choice between her budget, her body, and the planet</span>.
         </p>
         <Reveal delay={0.15} className="mt-14 flex items-center gap-4">
           <span className="grid h-14 w-14 place-items-center rounded-full bg-[var(--pink)] font-display text-xl text-white">AR</span>

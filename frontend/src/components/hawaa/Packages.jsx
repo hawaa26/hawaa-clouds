@@ -4,7 +4,7 @@ import { scrollToId } from "../../lib/lenis";
 import { useDonate } from "./DonateDialog";
 
 const tiers = [
-  { id: "sunrise", name: "Sunrise", size: "Up to 50 employees", tone: "bg-white", feats: ["Organic pads & tampons stocked in your office", "40% of every order gifted to communities", "Quarterly impact note"] },
+  { id: "sunrise", name: "Sunrise", size: "Up to 50 employees", tone: "bg-white", feats: ["Organic pads & tampons stocked in your office", "30% of every order gifted to communities", "Quarterly impact note"] },
   { id: "blush-sky", name: "Blush Sky", size: "50 – 250 employees", tone: "bg-[var(--pink-soft)]", featured: true, feats: ["Everything in Sunrise", "Multiple office locations", "Co-branded impact story for your team", "Named partner of a distribution point"] },
   { id: "above-the-clouds", name: "Above the Clouds", size: "250+ employees or grants", tone: "bg-[var(--blue-soft)]", feats: ["Everything in Blush Sky", "Fund a whole neighbourhood or asylum center", "Founding partner of the Amsterdam pilot"] },
 ];
@@ -21,7 +21,7 @@ export const Packages = ({ onPick }) => {
             Soft on your team, <span className="font-display-italic text-[var(--pink-deep)]">generous to her.</span>
           </h2>
           <p className="mt-6 max-w-2xl text-base leading-relaxed text-[var(--ink-soft)] md:text-lg" data-testid="community-impact">
-            Your sponsorship stocks premium organic period care for your own team, and 40% of every package flows to women and girls in vulnerable communities and neighbourhoods.
+            Your sponsorship stocks premium organic period care for your own team, and 30% of every package flows to women and girls in vulnerable communities and neighbourhoods.
           </p>
           <p className="mt-4 text-base leading-relaxed text-[var(--ink-soft)]">
             Individuals can also <a href="/shop" className="font-semibold text-[var(--pink-deep)] underline decoration-[var(--pink)] underline-offset-4">buy products</a> or <button onClick={openDonate} className="font-semibold text-[var(--pink-deep)] underline decoration-[var(--pink)] underline-offset-4" data-testid="packages-donate-link">donate directly</button>.
