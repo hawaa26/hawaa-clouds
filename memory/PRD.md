@@ -31,6 +31,13 @@ User choices: landing page + corporate sponsorship enquiry form (DB), admin view
 - /social-raw.html — editable HTML source of the graphics; /app/exports mirrors the final files
 - /icon-preview.html — icon family preview
 
+## 2026-11-22 updates v8
+- 'as a girl and as a woman' highlight removed from niece quote; highlight now on 'choice between her budget, her body and the planet'.
+- Statistics citations (Opinium & Neighborhood Feminists) removed from social pack.
+- Shop buttons now say 'Pre-order' (pads & tampons available as pre-orders).
+- How-it-works now: 'In workplaces' (corporate) and 'At home, for her' (individuals who buy via shop and support communities).
+- 6 new logo directions at /logo-directions.html (Sky Ribbon / Open Arch / Twin Puffs / Rising Light / Held Puff / Air Mark).
+
 ## 2026-11-22 updates v7
 - Logo replaced with user's uploaded artwork (arch + wordmark + CONSCIOUS CARE) everywhere: menu, footer, favicon, icons, social square, brand kit.
 - Baby blue unified to #CFE6F7 everywhere; Blush accent changed to #E8F3FB (soft baby blue from Open Heaven card); rose #C56B97; deep sky #3F5E8A.
